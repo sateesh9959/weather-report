@@ -1,5 +1,5 @@
 FROM python:3
 WORKDIR /usr/src/app
 COPY . .
-CMD ["test.py"]
+CMD ["main.py"]
 ENTRYPOINT ["python3"]
