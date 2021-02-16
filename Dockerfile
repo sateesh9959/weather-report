@@ -1,5 +1,4 @@
 FROM python:3
 WORKDIR /usr/src/app
 COPY . .
-CMD ["main.py"]
-ENTRYPOINT ["python3"]
+CMD ["python3","main.py"]
